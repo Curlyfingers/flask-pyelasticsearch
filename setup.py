@@ -19,7 +19,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask',
-        'elasticsearch',
+        'pyelasticsearch',
     ],
     classifiers=[
         'Environment :: Web Environment',
