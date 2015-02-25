@@ -15,7 +15,7 @@ Flask-PyElasticSearch is not yet pip installable. You will be able to do this in
 
 You can install for now like this:
 
-    pip install http://github.com/jace/flask-pyelasticsearch/tarball/master#egg=Flask-PyElasticSearch-dev
+    pip install https://github.com/jace/flask-pyelasticsearch/archive/master.zip#egg=Flask-PyElasticSearch-dev
 
 Configure
 ---------
