@@ -1,30 +1,23 @@
-Flask-ElasticSearch
-===================
+Flask-PyElasticSearch
+=====================
 
-Integrates ElasticSearch with Flask using the official [elasticsearch][]
+Integrates ElasticSearch with Flask using the [pyelasticsearch][]
 python package.
 
-[elasticsearch]: https://github.com/elasticsearch/elasticsearch-py
+[pyelasticsearch]: https://pyelasticsearch.readthedocs.org/
 
 Installation
 ------------
 
-Flask-ElasticSearch is pip installable.
+Flask-PyElasticSearch is not yet pip installable. You will be able to do this in future:
 
-    pip install Flask-ElasticSearch
+    pip install Flask-PyElasticSearch
 
-You can install the latest development version like so:
+You can install for now like this:
 
-    pip install http://github.com/kazoup/flask-elasticsearch/tarball/master#egg=Flask-ElasticSearch-dev
+    pip install http://github.com/jace/flask-pyelasticsearch/tarball/master#egg=Flask-PyElasticSearch-dev
 
 Configure
 ---------
 
 The only configuration is `ELASTICSEARCH_URL`, defaults to `http://localhost:9200/`.
-
-Development
------------
-
-Source code is hosted on [github][] (contributions are welcome).
-
-[github]: https://github.com/elasticsearch/elasticsearch-py
